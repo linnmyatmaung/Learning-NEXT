@@ -26,41 +26,40 @@ body {
   min-height: 100vh;
 }
 
-
 @layer utilities {
   .overflow-y-auto-custom {
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
   }
-  
+
   .glass-scrollbar::-webkit-scrollbar {
     width: 8px;
   }
-  
+
   .glass-scrollbar::-webkit-scrollbar-track {
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(4px);
   }
-  
+
   .glass-scrollbar::-webkit-scrollbar-thumb {
     background: rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.3);
   }
-  
+
   /* Hide scrollbar buttons (up/down arrows) */
   .glass-scrollbar::-webkit-scrollbar-button {
     display: none;
     height: 0;
     width: 0;
   }
-  
+
   /* Ensure start and end buttons are also hidden */
   .glass-scrollbar::-webkit-scrollbar-button:start:decrement,
   .glass-scrollbar::-webkit-scrollbar-button:end:increment {
     display: none;
   }
-  
+
   /* Firefox scrollbar styling */
   .glass-scrollbar {
     scrollbar-width: thin;

@@ -1,7 +1,9 @@
 export default function Home() {
   return (
     <div>
-      <main className="h-screen"></main>
+      <main className="h-screen">
+        <ChatInterface />
+      </main>
     </div>
   );
 }

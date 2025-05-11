@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import logo from "@/app/assets/logo.png";
 import github from "@/app/assets/github.png";
-import { fredoka } from "@/app/ui/font";
+import { fredoka } from "@/app/ui/fonts";
 import Link from "next/link";
 const Navbar = () => {
   return (
